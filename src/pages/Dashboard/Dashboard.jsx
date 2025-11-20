@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
-import Header from '../../components/Header/Header';
-import SearchBar from '../../components/SearchBar/SearchBar';
-import EmployeeList from '../../components/EmployeeList/EmployeeList';
-import Loader from '../../components/Loader/Loader';
-import ErrorMessage from '../../components/ErrorMessage/ErrorMessage';
+import Header from '../../Components/Header/Header';
+import SearchBar from '../../Components/SearchBar/SearchBar';
+import EmployeeList from '../../Components/EmployeeList/EmployeeList';
+import Loader from '../../Components/Loader/Loader';
+import ErrorMessage from '../../Components/ErrorMessage/ErrorMessage';
 import { useEmployees } from '../../hooks/useEmployees';
 import { useSearch } from '../../hooks/useSearch';
 import './Dashboard.css';

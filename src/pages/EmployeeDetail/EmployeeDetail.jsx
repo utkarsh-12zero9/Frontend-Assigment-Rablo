@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { employeeService } from '../../services/employeeService';
 import { PLACEHOLDER_IMAGE } from '../../utils/constants';
-import Loader from '../../components/Loader/Loader';
-import ErrorMessage from '../../components/ErrorMessage/ErrorMessage';
+import Loader from '../../Components/Loader/Loader';
+import ErrorMessage from '../../Components/ErrorMessage/ErrorMessage';
 import './EmployeeDetail.css';
 
 const EmployeeDetail = () => {
