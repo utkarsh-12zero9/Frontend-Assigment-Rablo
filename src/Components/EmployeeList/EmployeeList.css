@@ -1,0 +1,249 @@
+.employee-list-container {
+  margin-top: 2rem;
+}
+
+.list-header {
+  background: white;
+  padding: 2rem 1.75rem;
+  border-radius: 16px;
+  border: 2px solid #d1f2fa;
+  box-shadow: 0 2px 12px rgba(16, 160, 185, 0.1);
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.list-header:hover {
+  box-shadow: 0 4px 16px rgba(16, 140, 185, 0.15);
+  border-color: #108fb9;
+}
+
+.list-info {
+  flex: 1;
+  min-width: 220px;
+}
+
+.list-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #045578;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.5px;
+}
+
+.list-description {
+  font-size: 0.9375rem;
+  color: #057aab;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.list-actions {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.select-all-container {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+  background: #22a1f0;
+  border: 2px solid #1b7dba;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.select-all-container:hover {
+  color: black;
+  background: #1b7dba;
+  border-color: #1b7dba;
+  box-shadow: 0 4px 12px rgba(16, 145, 185, 0.2);
+}
+
+.select-all-container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #065f80;
+}
+
+.select-all-container span {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: #f6fcff;
+  letter-spacing: 0.3px;
+}
+
+.bulk-delete-button {
+  padding: 0.75rem 1.5rem;
+  background: #DC2626;
+  color: white;
+  border: 2px solid #DC2626;
+  border-radius: 10px;
+  font-size: 0.9375rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 8px rgba(220, 38, 38, 0.2);
+}
+
+.bulk-delete-button:hover {
+  background: #B91C1C;
+  border-color: #B91C1C;
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.35);
+}
+
+.bulk-delete-button:active {
+  transform: translateY(1px);
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.see-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.see-more-button {
+  padding: 0.875rem 2.5rem;
+  background: #22a1f0;
+  color: white;
+  border: 2px solid #1b7dba;
+  border-radius: 12px;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  letter-spacing: 0.3px;
+  box-shadow: 0 4px 12px rgba(16, 162, 185, 0.25);
+}
+
+.see-more-button:hover {
+  background: #1b7dba;
+  border-color: #1b7dba;
+  box-shadow: 0 6px 20px rgba(16, 131, 185, 0.35);
+}
+
+.see-more-button:active {
+  transform: scale(0.98);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: white;
+  border-radius: 16px;
+  border: 2px dashed #2197e1;
+  box-shadow: 0 2px 12px rgba(16, 185, 129, 0.08);
+  transition: all 0.3s ease;
+}
+
+.empty-state:hover {
+  border-color: #1e8acd;
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.12);
+}
+
+.empty-icon {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  filter: grayscale(0.3);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.empty-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #045778;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
+}
+
+.empty-description {
+  color: #056d96;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .list-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 1.25rem;
+  }
+
+  .list-title {
+    font-size: 1.5rem;
+  }
+
+  .list-description {
+    font-size: 0.875rem;
+  }
+
+  .list-actions {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+
+  .select-all-container,
+  .bulk-delete-button {
+    width: 100%;
+    justify-content: center;
+    padding: 0.875rem 1.25rem;
+  }
+
+  .employee-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .see-more-container {
+    margin-top: 2rem;
+  }
+
+  .see-more-button {
+    width: 100%;
+    padding: 0.875rem 2rem;
+  }
+
+  .empty-state {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .empty-icon {
+    font-size: 4rem;
+  }
+
+  .empty-title {
+    font-size: 1.5rem;
+  }
+
+  .empty-description {
+    font-size: 0.9375rem;
+  }
+}
