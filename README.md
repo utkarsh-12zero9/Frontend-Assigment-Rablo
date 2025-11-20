@@ -1,16 +1,51 @@
+<div align="center">
+   **Connect with the author**
+
+| [![GitHub](https://img.shields.io/badge/GitHub-@utkarsh--12zero9-181717?style=for-the-badge&logo=github)](https://github.com/utkarsh-12zero9) | [![X](https://img.shields.io/badge/X-@Utkarsh_12zero9-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/Utkarsh_12zero9) |
+|---|---|
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-in-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/utkarsh-12zero9) | [![Portfolio](https://img.shields.io/badge/Portfolio-utkarsh--react--portfolio-blueviolet?style=for-the-badge&logo=netlify)](https://utkarsh-react-portfolio.netlify.app/) |
+| [![Email](https://img.shields.io/badge/Email-utkarshkumarsingh120903%40gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:utkarshkumarsingh120903@gmail.com) |  |
+
+</div>
+
+
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using **React** and **Vite**, providing a fast development environment and optimized production build.
 
-Currently, two official plugins are available:
+## 🔧 Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure you have the following installed:
 
-## React Compiler
+- Node.js (v16+ recommended)
+- npm or yarn or pnpm
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Installation
 
-## Expanding the ESLint configuration
+Install project dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+```
+
+## Run
+
+To run the project on local machine:
+
+```bash
+npm run dev
+```
+
+
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Built with ❤️ by the Online Exam Portal team**
+
