@@ -1,12 +1,19 @@
-export const API_BASE_URL = '';
+import userprofile from '../assets/Images/userprofile.png';
 
+
+//! API urls
+export const API_BASE_URL = 'https://dummy.restapiexample.com/api/v1/employees';
 export const ENDPOINTS = {
-  EMPLOYEES: "https://dummy.restapiexample.com/api/v1/employees",
-  EMPLOYEE: (id) => `https://dummy.restapiexample.com/api/v1/employee/${id}`,
+  EMPLOYEES: API_BASE_URL,
+  EMPLOYEE: (id) => `${API_BASE_URL}/${id}`,
 };
 
-export const PLACEHOLDER_IMAGE = 'https://w7.pngwing.com/pngs/518/320/png-transparent-computer-icons-mobile-app-development-android-my-account-icon-blue-text-logo-thumbnail.png';
 
+//! Image
+export const PLACEHOLDER_IMAGE = userprofile;
+
+
+//! Error Messages
 export const ERROR_MESSAGES = {
   FETCH_ERROR: 'Failed to fetch employee data.',
   EMPLOYEE_NOT_FOUND: 'No employee found.',
