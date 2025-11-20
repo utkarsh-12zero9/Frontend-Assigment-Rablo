@@ -1,5 +1,5 @@
 <div align="center">
-   **Connect with the author**
+   Connect with the me
 
 | [![GitHub](https://img.shields.io/badge/GitHub-@utkarsh--12zero9-181717?style=for-the-badge&logo=github)](https://github.com/utkarsh-12zero9) | [![X](https://img.shields.io/badge/X-@Utkarsh_12zero9-1DA1F2?style=for-the-badge&logo=twitter)](https://x.com/Utkarsh_12zero9) |
 |---|---|
@@ -48,4 +48,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 **Built with ❤️ by the Online Exam Portal team**
-
