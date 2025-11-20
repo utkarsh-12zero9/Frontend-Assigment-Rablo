@@ -1,4 +1,4 @@
-import userprofile from '../assets/Images/userprofile.png';
+import userprofile from '../assets/Images/userProfile.png';
 
 
 //! API urls
